@@ -33,16 +33,16 @@ This app uses needs the following env vars to configure redis connection:
 - REDIS_USERNAME: Redis instance username
 - REDIS_PASSWORD: Redis instance password
 
-## Exercise 1 - Pipelines
+## Exercise 1 - Pipelines - [Answer](.github/workflows/build.yml)
 
 We need to generate the pipelines that build and publish the project image. Please provide scripts, github action or gitlab pipelines that build the image and publish it to the registry (feel free to use any public docker image registry of your choice).
 
-## Exercise 2 - Kubernetes
+## Exercise 2 - Kubernetes - [Answer](helm/tuv/)
 
 We want to deploy this project to our K8S cluster. Please provide scripts, kubernetes manifest or helm charts that create the needed infrastructure. We use GKE but in this case feel free to use any locally hosted cluster (minikube, kind, etc..).
 Write it as this was a real world production project, so keep into account things like High Avaliability, Autoscalling, Security, etc...
 
-## Exercise 3 - Docs
+## Exercise 3 - Docs - [Answer](DOC.md)
 
 Last but not least, please write a meaninful documentation of your design choices and how a developer can deploy the project.
 
